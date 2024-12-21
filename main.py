@@ -229,7 +229,7 @@ async def predict_and_recommend(data: ACInput):
             "totalUsagesHour": hours_usage,
             "monthlyUnitConsumption": calculate_range(round(monthly_consumption)),
             "monthlyCost": calculate_range(round(monthly_cost)),
-            "unitPriceasper_state": unit_price,
+            "unitPrice": unit_price,
             "dailyCost": calculate_range(round(daily_cost)),
             "yearlyCost": calculate_range(round(yearly_cost))
         },
